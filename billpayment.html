@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Payment</title>
+    <link href="bp.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body class="bg-white">
+  <section class="head">
+    <header class="pt-2 pb-2">
+        <div class="container bg-black rounded-3">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img src="logo.png" alt="" height="80" width="80">
+                <h1 class="nav col-12 col-lg-auto ms-5 me-auto mb-2 justify-content-center mb-md-0 h2 text-light">E-Banking</h1>
+                <button type="button" class="btn btn-secondary me-3" id="homeBtn">Home</button>
+                <button type="button" class="btn btn-secondary me-3" id="aboutBtn">About Us</button>
+                <button type="button" class="btn btn-secondary me-3" id="transactionsBtn">Transactions</button>
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="bacground.webp" alt="mdo" width="35" height="35" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="Login.html">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+  <div class="container bg-black rounded-3"> 
+    <div class="row m-0"> 
+    <div class="col-md-7 col-12"> 
+    <div class="row"> 
+    <div class="col-12 mb-4"> 
+    <div class="row box-right"> 
+    <div class="col-md-8 ps-0 "> 
+    <p class="ps-3 textmuted fw-bold h6 mb-0">TOTAL RECIEVED</p> 
+    <p class="h1 fw-bold d-flex"> <span class=" fas fa-dollar-sign textmuted pe-1 h6 align-text-top mt-1"></span>84,254 <span class="textmuted">.58</span> </p> 
+    <p class="ms-3 px-2 bg-green">+10% since last month</p> 
+    </div> 
+    <div class="col-md-4"> 
+    <p class="p-blue"> 
+    <span class="fas fa-circle pe-2"></span>Pending </p> 
+    <p class="fw-bold mb-3"><span class="fas fa-dollar-sign pe-1"></span>1254 <span class="textmuted">.50</span> </p>
+    <p class="p-org"><span class="fas fa-circle pe-2"></span>On drafts</p> 
+    <p class="fw-bold"><span class="fas fa-dollar-sign pe-1"></span>00<span class="textmuted">.00</span></p> 
+    </div> 
+    </div> 
+    </div> 
+    <div class="col-12 px-0"> 
+    <div class="box-right"> 
+    <div class="d-flex mb-2"> 
+    <p class="fw-bold">Create new invoice</p> 
+    <p class="ms-auto textmuted"><span class="fas fa-times"></span></p> 
+    </div> 
+    <div class="d-flex mb-2"> 
+    <p class="h7">#AL2545</p> 
+    <p class="ms-auto bg btn btn-primary p-blue h8"><span class="far fa-clone pe-2"></span>COPY PAYMENT LINK </p> 
+    </div> <div class="row"> 
+    <div class="col-12 mb-2"> 
+    <p class="textmuted h8">Project / Description</p> 
+    <input class="form-control" type="text" placeholder="Legal Consulting"> 
+    </div> <div class="col-6"> 
+    <p class="textmuted h8">Issused on</p> 
+    <input class="form-control" type="text" placeholder="Oct 25, 2020"> 
+    </div> 
+    <div class="col-6"> <p class="textmuted h8">Due on</p> 
+    <input class="form-control" type="text" placeholder="Oct 25, 2020"> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    <div class="col-md-5 col-12 ps-md-5 p-0 "> <div class="box-left"> <p class="textmuted h8">Invoice</p> 
+    <p class="fw-bold h7">James Anderson</p> 
+    <p class="textmuted h8">3897 Hickroy St, salt Lake city</p> 
+    <p class="textmuted h8 mb-2">Utah, United States 84104</p> 
+    <div class="h8"> 
+    <div class="row m-0 border mb-3"> 
+    <div class="col-6 h8 pe-0 ps-2"> 
+    <p class="textmuted py-2">Items</p> 
+    <span class="d-block py-2 border-bottom">Legal Advising</span> 
+    <span class="d-block py-2">Expert Consulting</span> 
+    </div> 
+    <div class="col-2 text-center p-0"> 
+    <p class="textmuted p-2">Qty</p> 
+    <span class="d-block p-2 border-bottom">2</span> 
+    <span class="d-block p-2">1</span> 
+    </div> 
+    <div class="col-2 p-0 text-center h8 border-end"> 
+    <p class="textmuted p-2">Price</p> 
+    <span class="d-block border-bottom py-2"><span class="fas fa-dollar-sign"></span>500</span>
+    <span class="d-block py-2 "><span class="fas fa-dollar-sign"></span>400</span> 
+    </div> 
+    <div class="col-2 p-0 text-center"> 
+    <p class="textmuted p-2">Total</p> 
+    <span class="d-block py-2 border-bottom"><span class="fas fa-dollar-sign"></span>1000</span>
+    <span class="d-block py-2"><span class="fas fa-dollar-sign"></span>400</span> 
+    </div> 
+    </div> 
+    <div class="d-flex h7 mb-2"> <p class="">Total Amount</p> 
+    <p class="ms-auto"><span class="fas fa-dollar-sign"></span>1400</p> 
+    </div> 
+    <div class="h8 mb-5"> 
+    <p class="textmuted">Contains the details of the invoice.</p> </div> </div> <div class=""> <p class="h7 fw-bold mb-1">Pay this Invoice</p> 
+    <p class="textmuted h8 mb-2">Make payment for this invoice by filling in the details</p> 
+    <div class="form"> 
+    <div class="row"> 
+    <div class="col-12"> 
+    <div class="card border-0"> 
+    <input class="form-control ps-5" type="text" placeholder="Card number"> 
+    <span class="far fa-credit-card"></span> 
+    </div> 
+    </div> 
+    <div class="col-6"> 
+    <input class="form-control my-3" type="text" placeholder="MM/YY"> 
+    </div> 
+    <div class="col-6"> 
+    <input class="form-control my-3" type="text" placeholder="cvv"> 
+    </div> 
+    <p class="p-blue h8 fw-bold mb-3">MORE PAYMENT METHODS</p> 
+    </div> 
+    <div class="btn btn-primary d-block h8" id="payButton">PAY <span class="fas fa-dollar-sign ms-2"></span>1400</a><span class="ms-3 fas fa-arrow-right"></span>
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+        var payButton = document.getElementById("payButton");
+        payButton.addEventListener("click", function () {
+          // Display a notification or alert
+          alert("Paid Successfully");
+          
+          // Redirect to dashboard.html after a short delay
+          setTimeout(function () {
+            window.location.href = "dashboard.html"; // Redirect to dashboard.html
+          }, 1000); // Delay of 2000 milliseconds (2 seconds)
+        });
+      });
+  </script>
+<script>
+  const homeBtn = document.getElementById("homeBtn");
+  const aboutBtn = document.getElementById("aboutBtn");
+  const transactionsBtn = document.getElementById("transactionsBtn");
+
+  homeBtn.addEventListener("click", () => {
+          window.location.href = "dashboard.html";
+  });
+
+  aboutBtn.addEventListener("click", () => {
+          window.location.href = "index.html";
+  });
+
+  transactionsBtn.addEventListener("click", () => {
+          window.location.href = "dashboard.html";
+  });
+</script>
+</body>
+</html>
